@@ -1,101 +1,126 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-    color: #666;
+body {
+	font family: Tahoma;
+	font-size: px;
+    width: 1000px;
+	margin: 0px auto;
+}
+#menu_top {
+	background: #1f568b;
+	height: 40px;
+}
+#banner {
+	height: auto;
+	width: 1000px;
+}
+
+#main #left {
+      width: 1000px;
+	  float: left;
+	  min-height: 2000px;
+}
+#footer {  
+	  background: #f3560b;
+	  width: 1000px;
+	  text-align: center;
+	  height: 60px;
+	  color: #49ee13;
+	  clear: left;
+	  line-height: 60px;
+	  list-style: none;
+}
+#menu_top ul  {
+	background: #1f568b;
+	margin: 0px;
+	padding: 0px;
+}
+#menu_top li {
+	list-style: none;
+	float: left;
+}
+#menu_top ul li a {
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	padding: 0px 30px 0px 30px;
+}
+#menu_top ul li a:hover {
+	background:#1f568b;
+}
+	
+#menu_top ul li {
+	position: relative;
+}
+#banner img {
+	width: 1000px;
+}
+#main #left ul {
+	margin: 0px;
+	padding: 0px;
+}
+#main #left li{
+	list-style: none;
+	clear: left;
+	border-bottom: 2px solid #ccc;
+	float: left;
+	margin-bottom: 20px;
+}
+#main #left ul li img {
+	float: left;
+}
+#main #left ul li h2 {
+	font-size: 25px;
+	margin-top: 0px;
+}
+#search {
+	width: 250px;
+	height: 22px;
+
+}
+#main {
+	margin-top: 40px;
+}
+#ket li {
+	font-size: 20px;
+	list-style: none;
+	color: #000;
+}
+#tk li {
+	height: 5px;
+	list-style: none;
+	font-size: 18px;
+	color: #000;
+	text-align: left;
+}
+#menu_top ul li > .menu_con {
+	display: none;
+	position: absolute;
+}
+#menu_top ul li:hover .menu_con {
+	display: block;
+}
+#menu_top ul li > .menu_con1 {
+	display: none;
+	position: absolute;
+}
+#menu_top ul li:hover .menu_con1 {
+	display: block;
+}
+#menu_top ul li > .menu_con2 {
+	display: none;
+	position: absolute;
+}
+#menu_top ul li:hover .menu_con2 {
+	display: block;
+}
+#menu_top ul li > .menu_con3 {
+	display: none;
+	position: absolute;
+}
+#menu_top ul li:hover .menu_con3 {
+	display: block;
 }
 
 
-/* Header/logo tiêu đề */
 
-header {
-    padding: 5px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-    height: 120px;
-}
-
-
-/* Tăng kích thước font chữ cho header */
-
-header h1 {
-    font-size: 40px;
-}
-
-header h1,
-h2,
-h3 {
-    color: white;
-}
-
-section {
-    padding: 20px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
-}
-
-li {
-    float: left;
-}
-
-li a,
-.dropbtn {
-    display: inline-block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active),
-.dropdown:hover .dropbtn {
-    color: white;
-    background-color: #4CAF50;
-}
-
-li.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: #666;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-
-/* Landing page */
-
-.hideable-section {
-    display: none;
-}
-
-.hideable-section:first-of-type {
-    display: block;
-}
