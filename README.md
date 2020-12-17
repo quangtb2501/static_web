@@ -1,4 +1,4 @@
-# landingpage
+
 1.Mục đích trang web nêu ra một số luật về an toàn giao thông đường bộ hiện hành
 2.Số lượng thẻ HTML được sử dụng là: 21 thẻ.
 Gồm: <ul>, <li>, <body>, <div>, <input>, <head>, <tittle>, <a>, <marqee>, <img>
